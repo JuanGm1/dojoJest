@@ -1,8 +1,7 @@
 
 
-var secret = '1234';
-
 function play(cod){
+    var secret = '1234';
     var result = '';
     var i = 0;
     while(i < cod.length){
