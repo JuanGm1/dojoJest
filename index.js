@@ -1,6 +1,8 @@
-const express = require("express");
+const express = require("express"),
+    app = express(),
+    puerto = process.env.PORT || 3000;
+
 const { play } = require("./CodeBreaker");
-const app = express();
 
 app.use(
   express.urlencoded({
@@ -10,7 +12,7 @@ app.use(
 
 app.use(express.json());
 
-app.listen(3000, () => {
+app.listen(puerto, () => {
     app.post('/juego', function (req, res) {
         respuesta = play(req.body.codigo);
         res.send(respuesta);
