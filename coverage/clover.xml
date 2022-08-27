@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1661606630013" clover="3.2.0">
-  <project timestamp="1661606630013" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="22" coveredelements="22" complexity="0" loc="15" ncloc="15" packages="1" files="2" classes="2"/>
-    <file name="Calculadora.js" path="C:\Users\Juan Esteban\Documents\dojo-jest\Calculadora.js">
+<coverage generated="1661616172816" clover="3.2.0">
+  <project timestamp="1661616172817" name="All files">
+    <metrics statements="27" coveredstatements="24" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="4" elements="36" coveredelements="32" complexity="0" loc="27" ncloc="27" packages="1" files="3" classes="3"/>
+    <file name="Calculadora.js" path="C:\Dojo\dojoJest\Calculadora.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="3" count="2" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
     </file>
-    <file name="CodeBreaker.js" path="C:\Users\Juan Esteban\Documents\dojo-jest\CodeBreaker.js">
+    <file name="CodeBreaker.js" path="C:\Dojo\dojoJest\CodeBreaker.js">
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="13" type="stmt"/>
+      <line num="5" count="13" type="stmt"/>
       <line num="6" count="13" type="stmt"/>
       <line num="7" count="13" type="stmt"/>
-      <line num="8" count="13" type="stmt"/>
-      <line num="9" count="52" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="16" type="stmt"/>
-      <line num="12" count="36" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="17" type="stmt"/>
-      <line num="16" count="52" type="stmt"/>
-      <line num="18" count="13" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
+      <line num="8" count="52" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="16" type="stmt"/>
+      <line num="11" count="36" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="17" type="stmt"/>
+      <line num="15" count="52" type="stmt"/>
+      <line num="17" count="13" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="api.calculator.js" path="C:\Dojo\dojoJest\api.calculator.js">
+      <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

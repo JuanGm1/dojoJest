@@ -1,10 +1,10 @@
-const cal = require('./Calculadora');
+const cal = require('./Calculadora'); //ARRANGE
 
 
 describe('Add operator', () => {
     test('Suma de dos numeros 1+1 = 2', () => {
-        var result = cal.add(1, 1);
-        expect(result).toBe(2);
+        var result = cal.add(1, 1); //ACT
+        expect(result).toBe(2); // ASSERT
     })
     
     test('Suma de dos numeros 2+2 = 4', () => {
